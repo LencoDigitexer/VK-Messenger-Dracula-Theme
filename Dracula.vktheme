@@ -4,8 +4,8 @@
 $black: #000
 $white: #fff
 $dark: #1A1E2B
-$bg: #1F2333
-$accent_blue: #70A7F0
+$bg: #282A36
+$accent_blue: #8be9fd    
 $link_dark_blue: #335680
 $light_blue: #fff
 $light_blue_gray: #98ACC2
@@ -18,12 +18,12 @@ $steel_gray_300: #9ba2ac
 
 $text_field_base: #A6B4C8
 // $text_field is 20% of $text_field_base
-$text_field: #3a4051
-$border: #3a4051 // same as text_field (20% of base)
+$text_field: #282A36
+$border: #282A36 // same as text_field (20% of base)
 
 $placeholder: #7d8594 // 40% of #deeeff
 $hover: #1A1E2B
-$selected: #2d3341
+$selected: #44475A
 $button_blue: #5A7DAC
 $selected_blue: #70A7F0
 $audio_blue: #70A7F0
@@ -33,18 +33,18 @@ $audio_blue: #70A7F0
 //
 base-fg: $light_blue
 base-bg: $bg
-base-icon: $accent_blue
-base-icon-hover: $accent_blue,70%
+base-icon: #6272a4
+base-icon-hover: #bd93f9
 red-icon: $icon_red
 gray-icon: $accent_blue
 steel-gray-icon: $steel_gray_300
-gray-fg: $light_gray // deprecated
+gray-fg: #6272a4
 lightgray-fg: $light_gray 
 darkgray-fg: $light_gray
 bluegray-fg: $light_gray
 blue-fg: $text_blue
 search-hl-bg: $accent_blue,40%
-user-name-fg: $light_blue_gray
+user-name-fg: #bd93f9
 menu-hover-bg: $hover
 hover-bg: $hover
 
@@ -52,9 +52,9 @@ hover-bg: $hover
   ubuntu-selection-bg: rgba(239, 118, 69, 0.99)
   ubuntu-selection-fg: $bg
 #elif WINDOWS
-  win32-window-frame: #507299
+  win32-window-frame: #282A36
   win32-window-title-fg: $white
-  win32-window-title-bg: #507299
+  win32-window-title-bg: #282A36
   win32-window-title-btn-fg: $white
   win32-window-title-btn-hover-bg: $black,20%
   win32-window-title-btn-active-bg: $black,25%
@@ -122,11 +122,11 @@ update-version-fg: $light_gray
 dialogitem-bg: $bg
 dialogitem-hover-bg: $hover
 dialogitem-selected-bg: $selected
-dialogitem-name-fg: $light_blue
+dialogitem-name-fg: #f1fa8c
 dialogitem-online-bg: #71cb50
-dialogitem-message-fg: $light_blue_gray
+dialogitem-message-fg: #6272a4
 
-dialogitem-message-out-fg: $accent_blue
+dialogitem-message-out-fg: #8be9fd
 dialogitem-selected-message-out-fg: #fff,80%
 
 dialogitem-selected-message-attach-fg: #fff,80%
@@ -142,13 +142,13 @@ msgp-border: #c9cccf
 msgp-bottom-gradient-stop0: $white,0%
 msgp-bottom-gradient-stop1: $white
 
-dialogitem-badge-bg: $button_blue
+dialogitem-badge-bg: #50fa7b
 dialogitem-badge-fg: $bg
 dialogitem-selected-badge-bg: $white
 dialogitem-selected-badge-fg: $accent_blue
 dialogitem-outbadge-bg: $accent_blue
 dialogitem-outbadge-fg: $light_blue
-dialogitem-muted-badge-bg: #8995AE
+dialogitem-muted-badge-bg: #8be9fd  
 dialogitem-selected-verified-icon: $white
 dialogitem-muted-icon: $light_blue,30%
 dialogitem-delete-icon: $accent_blue
@@ -161,7 +161,7 @@ dialogitem-sending-icon: $accent_blue
 dialogitem-selected-sending-icon: $light_blue
 
 header-border: $border
-header-title: $light_blue
+header-title: #f1fa8c
 header-back-fg: $accent_blue
 header-back-icon: $accent_blue
 header-remove-selection-icon: $accent_blue
@@ -219,9 +219,9 @@ dialog-input-attach-geo-remove-hover-bg: $white,70%
 dialog-input-mentions-list-shadow: $black,5% // top shadow
 dialog-input-attach-border: $white,10%
 
-dialog-input-keyboard-default-bg: #394050
+dialog-input-keyboard-default-bg: #282A36
 dialog-input-keyboard-default-fg: $white,90%
-dialog-input-keyboard-default-border: #394050
+dialog-input-keyboard-default-border: #282A36
 
 dialog-input-keyboard-negative-bg: #e76666
 dialog-input-keyboard-negative-fg: $white,90%
@@ -259,7 +259,7 @@ dialog-history-end-button-badge-fg: $bg
 dialog-history-end-button-icon: $accent_blue
 dialog-history-end-button-icon-hover: $accent_blue,80%
 dialog-search-message-arrow-icon: $light_blue_gray
-dialog-message-unread-bg: #2c3242 // 10% of $text_field_base
+dialog-message-unread-bg: #44475a // 10% of $text_field_base
 dialog-message-hover-bg: $hover
 dialog-message-photo-bg: $dark
 dialog-message-gift-bg: $bg
@@ -399,12 +399,12 @@ audioplayer-slider-bg: $audio_blue
 
 communities-icon: $accent_blue
 
-accpanel-bg: #394050
-accpanel-border-right: #394050
+accpanel-bg: #282A36
+accpanel-border-right: #282A36
 accpanel-sep-border-bottom: $light_blue,30%
 accpanel-cur-icon: $accent_blue
 accpanel-badge-fg: $white
-accpanel-badge-bg: #3F8AE0
+accpanel-badge-bg: #bd93f9
 accpanel-graybadge-bg: #9ea6ad
 accpanel-dimmed-bg: $black,15%
 accpanel-dimmed-badge-border: #cacccc
